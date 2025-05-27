@@ -44,5 +44,21 @@ Mean ± 3*STD,Percentile (5%-95%),IQR,Z-Score.
 
 
 
+# Assignment 4 - Classification Problem
+
+# Steps done
+1. The objective was to apply supervised learning techniques to a real-world classification problem.
+2. The Breast Cancer Wisconsin Diagnostic Dataset from sklearn was used.
+3. The dataset was checked for missing values, and no missing data was found.
+4. Feature scaling was performed using StandardScaler.
+5. The dataset was split into training and testing sets using an 80-20 ratio.
+6. Logistic Regression was implemented as a linear classification model.
+7. Decision Tree Classifier was implemented to model non-linear decision rules.
+8. Random Forest Classifier was implemented as an ensemble of decision trees.
+9. Support Vector Machine (SVM) was implemented to find the optimal separating hyperplane.
+10. k-Nearest Neighbors (k-NN) was implemented for instance-based classification.
+11. All models were evaluated based on accuracy scores.
+12. Support Vector Machine (SVM) achieved the highest accuracy.
+13. Decision Tree Classifier had the lowest accuracy among the models.
 
 
