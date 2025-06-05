@@ -62,3 +62,18 @@ Mean ± 3*STD,Percentile (5%-95%),IQR,Z-Score.
 13. Decision Tree Classifier had the lowest accuracy among the models.
 
 
+
+# Assignment 5 - Clustering Algorithm
+
+# Steps done
+1. Loaded the Iris dataset using sklearn.datasets.load_iris().
+2. Dropped the target/species column to make it suitable for unsupervised learning (clustering).
+3. Applied KMeans clustering with n_clusters=3 to group data into 3 clusters.
+4. Explained how KMeans works (centroid-based, iterative algorithm).
+5. Described why KMeans is suitable for the Iris dataset (numerical features, natural clusters).
+6. Used PCA for dimensionality reduction to visualize clusters in 2D space.
+7. Applied Hierarchical clustering using the agglomerative approach and ward linkage.
+8. Plotted a dendrogram to visualize the hierarchical relationships between data points.
+9. Formed 3 clusters from the dendrogram using fcluster() function.
+10. Visualized both clustering results (KMeans & Hierarchical) using scatter plots with PCA components.
+
