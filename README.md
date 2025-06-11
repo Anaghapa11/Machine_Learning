@@ -77,3 +77,29 @@ Mean ± 3*STD,Percentile (5%-95%),IQR,Z-Score.
 9. Formed 3 clusters from the dendrogram using fcluster() function.
 10. Visualized both clustering results (KMeans & Hierarchical) using scatter plots with PCA components.
 
+
+
+# Project - Machine Learning module end project
+
+# Steps done
+1. Imported all necessary libraries.
+2. Loaded the dataset using pandas.
+3. Explored and understood the structure of the dataset.
+4. Cleaned the data and handled missing or irrelevant values.
+5. Converted categorical features into numerical values using encoding techniques.
+6. Scaled numerical features for consistent model input.
+7. Split the dataset into training and testing sets.
+8. Implemented Linear Regression model.
+9. Implemented Decision Tree Regressor model.
+10. Implemented Random Forest Regressor model.
+11. Implemented Gradient Boosting Regressor model.
+12. Implemented Support Vector Regressor (SVR) model.
+13. Evaluated all models using R² Score, Mean Squared Error (MSE), and Mean Absolute Error (MAE).
+14. Identified Random Forest as the best performing model.
+15. Analyzed feature importance using Random Forest.
+16. Found engine size and curb weight as top influencing features.
+17. Performed hyperparameter tuning using GridSearchCV.
+18. Optimized Random Forest model with best parameters.
+19. Final tuned model achieved R² score of 0.9549.
+20. Concluded Random Forest as the most accurate and reliable model for predicting car prices.
+
